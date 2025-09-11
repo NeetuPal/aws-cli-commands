@@ -1,4 +1,4 @@
-# aws-cli-commands-cheatSheet
+# aws-cli-commands
 
 ### Get the region of your current identity
 ```
