@@ -27,3 +27,8 @@ region = ap-south-1
 ```
 code ~/.aws/config
 ```
+### Test the profile directly
+```
+aws sts get-caller-identity --profile dev
+
+```
