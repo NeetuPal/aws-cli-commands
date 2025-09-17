@@ -14,14 +14,14 @@ aws configure list --profile dev
 
 ```
 ### Open it in a code editor like VS Code
-[dev] br
-aws_access_key_id = XXXXXXXXXXX br
+[dev] <br>
+aws_access_key_id = XXXXXXXXXXX <br>
 aws_secret_access_key = YYYYYYYYYYY
 
 ```
 code ~/.aws/credentials
 ```
-[profile dev] br
+[profile dev] <br>
 region = ap-south-1
 
 ```
