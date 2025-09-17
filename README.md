@@ -4,3 +4,12 @@
 ```
 aws configure list
 ```
+### List available AWS profiles
+```
+aws configure list-profiles
+```
+### Show details of a specific profile
+```
+aws configure list --profile dev
+
+```
