@@ -13,7 +13,7 @@ aws configure list-profiles
 aws configure list --profile dev
 
 ```
-### Open it in a code editor like VS Code
+### Open it in a code editor like VS Code using <br>
 [dev] <br>
 aws_access_key_id = XXXXXXXXXXX <br>
 aws_secret_access_key = YYYYYYYYYYY
