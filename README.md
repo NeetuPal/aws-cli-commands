@@ -13,3 +13,10 @@ aws configure list-profiles
 aws configure list --profile dev
 
 ```
+### Open it in a code editor like VS Code
+```
+code ~/.aws/credentials
+```
+```
+code ~/.aws/config
+```
