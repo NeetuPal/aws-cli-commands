@@ -45,3 +45,12 @@ aws ec2 describe-instances `
   --output table `
   --profile dev
 ```
+### Stop a specific instance
+```
+aws ec2 stop-instances --instance-ids i-0123456789abcdef0 --profile dev
+
+```
+### Start a specific instance
+```
+aws ec2 start-instances --instance-ids i-0123456789abcdef0 --profile dev
+```
