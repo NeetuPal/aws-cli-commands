@@ -38,3 +38,10 @@ aws ec2 describe-instances \
   --query "Reservations[*].Instances[*].[InstanceId,Tags[?Key=='Name'].Value|[0],State.Name,PublicIpAddress]" \
   --output table --profile dev
 ```
+### Use PowerShell line continuation ``` (backtick)
+```
+aws ec2 describe-instances `
+  --query "Reservations[*].Instances[*].[InstanceId,Tags[?Key=='Name'].Value|[0],State.Name,PublicIpAddress]" `
+  --output table `
+  --profile dev
+```
